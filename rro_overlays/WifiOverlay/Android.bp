@@ -1,4 +1,4 @@
-runtime_resource_overlay {
+overlay {
     name: "WifiOverlay",
     theme: "WifiOverlay",
     sdk_version: "current",
