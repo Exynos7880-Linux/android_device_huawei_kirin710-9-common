@@ -1,0 +1,10 @@
+/dev/block/mmcblk0p60 /cache ext4 rw 0 0
+/dev/block/mmcblk0p65 /cust erofs rw 0 0
+/dev/block/mmcblk0p70 /data f2fs rw 0 0
+/dev/block/mmcblk0p64 /odm erofs rw 0 0
+/dev/block/mmcblk0p66 /system_root erofs rw 0 0
+/dev/block/mmcblk0p63 /vendor erofs rw 0 0
+/dev/block/mmcblk0p62 /preas erofs ro 0 0
+/dev/block/mmcblk0p62 /preavs erofs ro 0 0
+/dev/block/mmcblk0p22 /splash2 ext4 rw 0 0
+/dev/block/mmcblk1 /external_sd vfat rw 0 0
