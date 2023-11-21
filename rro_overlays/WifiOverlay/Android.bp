@@ -1,6 +1,0 @@
-overlay {
-    name: "WifiOverlay",
-    theme: "WifiOverlay",
-    sdk_version: "current",
-    vendor: true
-}

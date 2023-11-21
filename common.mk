@@ -113,8 +113,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/init/fstab.kirin710:$(TARGET_COPY_OUT_RAMDISK)/fstab.hi6250 \
-    $(COMMON_PATH)/configs/init/fstab.kirin710:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250 \
+    $(COMMON_PATH)/configs/init/fstab.kirin710:$(TARGET_COPY_OUT_RAMDISK)/fstab.kirin710 \
+    $(COMMON_PATH)/configs/init/fstab.kirin710:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.kirin710 \
     $(COMMON_PATH)/configs/init/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem \
     $(COMMON_PATH)/configs/init/init.audio.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.audio.rc \
     $(COMMON_PATH)/configs/init/init.balong_modem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.balong_modem.rc \
@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/init/init.connectivity.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connectivity.gps.rc \
     $(COMMON_PATH)/configs/init/init.connectivity.hi1102.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connectivity.hi1102.rc \
     $(COMMON_PATH)/configs/init/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.device.rc \
-    $(COMMON_PATH)/configs/init/init.kirin710.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.hi6250.rc \
+    $(COMMON_PATH)/configs/init/init.kirin710.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.kirin710.rc \
     $(COMMON_PATH)/configs/init/init.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.rc \
     $(COMMON_PATH)/configs/init/init.hisi.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hisi.usb.rc \
     $(COMMON_PATH)/configs/init/init.manufacture.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.manufacture.rc \
