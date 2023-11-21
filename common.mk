@@ -14,7 +14,7 @@ $(call inherit-product, vendor/huawei/kirin710-9-common/kirin710-9-common-vendor
 $(call inherit-product, hardware/huawei/hardware.mk)
 
 ## Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+#$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal xhdpi
