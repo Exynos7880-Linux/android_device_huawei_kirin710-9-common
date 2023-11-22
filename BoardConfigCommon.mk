@@ -66,7 +66,7 @@ TARGET_KERNEL_OPTIONAL_LD := true
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument -Wno-unused-function"
 
 # clang-r450784d = Kernel Android 13
 TARGET_KERNEL_CLANG_VERSION := r416183b1
