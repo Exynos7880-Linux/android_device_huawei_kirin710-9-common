@@ -57,8 +57,8 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/hidl/vintf/compatibility_matrix.xml
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(COMMON_PATH)/mkbootimg.mk
 BOARD_KERNEL_BASE := 0x00478000
-BOARD_KERNEL_CMDLINE := loglevel=4 coherent_pool=512K page_tracker=on slub_min_objects=12 unmovable_isolate1=2:192M,3:224M,4:256M printktimer=0xfff0a000,0x534,0x538 androidboot.selinux=permissive
-BOARD_KERNEL_IMAGE_NAME := Image.gz
+#BOARD_KERNEL_CMDLINE := loglevel=4 coherent_pool=512K page_tracker=on slub_min_objects=12 unmovable_isolate1=2:192M,3:224M,4:256M printktimer=0xfff0a000,0x534,0x538 androidboot.selinux=permissive
+BOARD_KERNEL_IMAGE_NAME := dummykernel
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x0ff88000 --second_offset 0x00e88000 --tags_offset 0x07988000
 
@@ -73,8 +73,8 @@ TARGET_KERNEL_CLANG_VERSION := r416183b1
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
 
 # Kernel Source
-TARGET_KERNEL_CONFIG := merge_kirin710_defconfig
-TARGET_KERNEL_SOURCE := kernel/huawei/kirin710-9
+#TARGET_KERNEL_CONFIG := merge_kirin710_defconfig
+#TARGET_KERNEL_SOURCE := kernel/huawei/kirin710-9
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
